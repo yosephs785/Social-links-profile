@@ -23,6 +23,7 @@ img{
     justify-content: start;
     align-items: start;
     flex-direction: row;
+    margin-top: 50px;
 }
 h2 {
     display: flex;
@@ -87,6 +88,7 @@ p {
     color: #c5f82a;
 
 }
+
 
 
 
