@@ -1,0 +1,93 @@
+body {
+    background: black;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    width: 350px;
+    height: 550px; /* or any height you want */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers horizontal */
+    align-items: center; /* Centers vertically */
+    background-color: #141414;
+    border-radius: 10px;
+}
+img{
+    border-radius: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: row;
+}
+h2 {
+    display: flex;
+    align-items: start;
+    font-family: "Inter", sans-serif;
+    justify-content: start;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+h4 {
+    font-family: "Inter", sans-serif;
+    color: #c5f82a;
+    text-align: center;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-top: 5px;
+}
+p {
+    font-family: "Inter", sans-serif;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.box {
+    background-color:
+            #333333;
+    height: 40px;
+    width: 275px;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 15px;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+.social a {
+    color: white;
+    text-decoration: none; /* ❌ removes underline */
+    transition: background-color 0.3s;
+}
+.social a{
+    color: white; /* only the letter */
+}
+.social a:hover{
+    color: #c5f82a;
+
+}
+
+
+
+
