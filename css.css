@@ -19,7 +19,7 @@ body {
 }
 img {
     border-radius: 50%;
-    display: flex;
+    display: block;
     justify-content: start;
     align-items: start;
     flex-direction: row;
@@ -87,6 +87,7 @@ p {
     color: #c5f82a;
 
 }
+
 
 
 
